@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int tc;
+  scanf("%d",&tc);
+  for(int i=0;i<tc;i++){
+    int m1,m2,d;
+    scanf("%d %d %d",&m1,&m2,&d);
+    int total,result;
+    total=(m1*d)/(m1+m2);
+    result=d-total;
+    printf("%d\n",result);
+  }
+}
